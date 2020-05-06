@@ -1,0 +1,18 @@
+.container {
+    font-size: 10px;
+    background-color: black;
+    color: darkolivegreen;
+}
+
+.container .principal {
+    color: brown;
+    font-size: 30px;
+}
+
+.container .principal .secundario {
+    background-color: chartreuse;
+}
+
+.container .principal .secundario .terciario {
+    background-color: cyan;
+}

@@ -1,0 +1,18 @@
+h1 {
+    position: relative;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.spanRow {
+    display: table;
+}
+
+span {
+    flex-direction: row;
+    margin: 10px;
+}
+
+.fundoVermelho {
+    background-color: crimson;
+}

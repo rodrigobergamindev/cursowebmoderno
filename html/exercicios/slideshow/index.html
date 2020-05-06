@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Image slideshow on mouse event</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="column active">
+            <div class="bg">
+                <img src="http://files.cod3r.com.br/curso-web/imagem1.jpg">
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="bg">
+                <img src="http://files.cod3r.com.br/curso-web/imagem2.gif">
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="bg">
+                <img src="http://files.cod3r.com.br/curso-web/imagem3.png">
+            </div>
+        </div>
+
+        
+        <div class="column">
+            <div class="bg">
+                <img src="http://files.cod3r.com.br/curso-web/logo-larga.png">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <script type="text/javascript">
+    $(document).on('mouseover', '.column', function(){
+        $(this).addClass('active').siblings().removeClass('active');
+    });
+    </script>
+</body>
+</html>
